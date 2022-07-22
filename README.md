@@ -11,3 +11,5 @@ The page contains 3 main sections where you can find
       
    *Play:
    	-Finally there is the "Play" section that contains the pre-created game in the WorkBook, but it will be adapted with a redesign of all kinds, the user will be able to distract himself by catching the moving pokemons
+
+https://pokewebpage.netlify.app/
