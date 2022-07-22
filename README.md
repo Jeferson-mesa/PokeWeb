@@ -1,14 +1,13 @@
 # PokeWeb
-[Proyecto desarrollado en base al WorkBook CSS por ProgramateSchool]
+[Project developed based on ProgramateSchool CSS WorkBook]
 
-La pagina contiene 3 apartados principales en los que se encuentran:
+The page contains 3 main sections where you can find:
 
-  *Home: 
-    -Es la parte inicial de la pagina para conocer brevemente de que se trata. Contiene un "prompt" en js el cual permite que el usuario ingrese el nombre que desee y este se muestre en la pantalla
+     *Home:
+       -It is the initial part of the page to know briefly what it is about. Contains a "message" in js that allows the user to enter the name they want and is displayed on the screen
     
-  *Pokemons:
-    -En este apartado se encuentran 150 Pokemones distribuidos por cards en sus categorias con sus datos reales, cards que permiten al usuario conocer mas sobre pokemon
+     * Pokemon:
+       -In this section there are 150 Pokémon distributed by cards in their categories with their real data, cards that allow the user to know more about pokemon
     
-  *Play:
-    -Por ultimo esta el apartado de "Play" el cual contiene el juego precreado en el WorkBook, pero estara adaptado con un rediseño de todo tipo, el usuario podra distraerse atrapando los pokemones en movimiento
-   
+     *Play:
+       -Finally there is the "Play" section that contains the pre-created game in the WorkBook, but it will be adapted with a redesign of all kinds, the user will be able to distract himself by catching the moving pokemons
