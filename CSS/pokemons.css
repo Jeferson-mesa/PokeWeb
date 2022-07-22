@@ -1,0 +1,592 @@
+/* ------------------- POKEMONS---------------------  */
+
+.contentAll {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---TITLES CARDS--- */
+.title {
+  position: relative;
+  display: flex;
+  top: 13px;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+.title span {
+  color: #fed800;
+  font-size: 55px;
+}
+
+.title-2,
+.title-3,
+.title-4,
+.title-5,
+.title-6,
+.title-7,
+.title-8,
+.title-9,
+.title-10,
+.title-11,
+.title-12,
+.title-13,
+.title-14,
+.title-15,
+.title-16,
+.title-17 {
+  position: relative;
+  display: flex;
+  top: 180px;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  text-transform: uppercase;
+}
+
+.title-2 span {
+  color: #48cae4;
+}
+
+.title-3 span {
+  color: #2ec497;
+}
+
+.title-4 span {
+  color: #7209b7;
+}
+
+.title-5 span {
+  color: #f7b538;
+}
+
+.title-6 span {
+  color: #ef476f;
+}
+
+.title-7 span {
+  color: #f94144;
+}
+
+.title-8 span {
+  color: #ff8fab;
+}
+
+.title-9 span {
+  color: #90e0ef;
+}
+
+.title-10 span {
+  color: #b08968;
+}
+
+.title-11 span {
+  color: #a7c957;
+}
+
+.title-12 span {
+  color: #ffc6ff;
+}
+
+.title-13 span {
+  color: #ffa62b;
+}
+
+.title-14 span {
+  color: #9163cb;
+}
+
+.title-15 span {
+  color: #c6ac8f;
+}
+
+.title-16 span {
+  color: #03cea4;
+}
+
+.title-17 span {
+  color: #b6a6ca;
+}
+
+.slide-container {
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.slide-content {
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.card {
+  border-radius: 25px;
+  background: #fff;
+}
+
+.image-content,
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+
+.image-content {
+  row-gap: 5px;
+  position: relative;
+  padding: 25px 0;
+}
+
+.overlay {
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #696969;
+  border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before,
+.overlay::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #696969;
+}
+
+.overlay::after {
+  border-radius: 0 25px 0 0;
+  background-color: #fff;
+}
+
+.card-image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 5px;
+}
+
+.card-image,
+.card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #696969;
+}
+
+.name {
+  position: relative;
+  top: -30px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+
+.description {
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+
+/* ---BUTONS COLOR--- */
+.button {
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  padding: 8px 16px;
+  background-color: #707070;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.button:hover {
+  background: #023e8a;
+}
+
+.button-2,
+.button-3,
+.button-4,
+.button-5,
+.button-6,
+.button-7,
+.button-8,
+.button-9,
+.button-10,
+.button-11,
+.button-12,
+.button-13,
+.button-14,
+.button-15,
+.button-16,
+.button-17 {
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  padding: 8px 16px;
+  background-color: #00b4d8;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.button-2:hover {
+  background: #378494;
+}
+
+.button-3 {
+  background-color: #2ec497;
+}
+
+.button-3:hover {
+  background: #437969;
+}
+
+.button-4 {
+  background-color: #7209b7;
+}
+
+.button-4:hover {
+  background: #2f09b7;
+}
+
+.button-4 {
+  background-color: #7209b7;
+}
+
+.button-4:hover {
+  background: #2f09b7;
+}
+
+.button-5 {
+  background-color: #f7b538;
+}
+
+.button-5:hover {
+  background: #db7c26;
+}
+
+.button-6 {
+  background-color: #ef476f;
+}
+
+.button-6:hover {
+  background: #7209b7;
+}
+
+.button-7 {
+  background-color: #f94144;
+}
+
+.button-7:hover {
+  background: #f8961e;
+}
+
+.button-8 {
+  background-color: #ff8fab;
+}
+
+.button-8:hover {
+  background: #fb6f92;
+}
+
+.button-9 {
+  background-color: #90e0ef;
+}
+
+.button-9:hover {
+  background: #00b4d8;
+}
+
+.button-10 {
+  background-color: #b08968;
+}
+
+.button-10:hover {
+  background: #7f5539;
+}
+
+.button-11 {
+  background-color: #a7c957;
+}
+
+.button-11:hover {
+  background: #6a994e;
+}
+
+.button-12 {
+  background-color: #ffc6ff;
+}
+
+.button-12:hover {
+  background: #bdb2ff;
+}
+
+.button-13 {
+  background-color: #ffa62b;
+}
+
+.button-13:hover {
+  background: #ede7e3;
+  color: rgb(80, 80, 80);
+}
+
+.button-14 {
+  background-color: #9163cb;
+}
+
+.button-14:hover {
+  background: #6247aa;
+}
+
+.button-15 {
+  background-color: #c6ac8f;
+}
+
+.button-15:hover {
+  background: #5e503f;
+}
+
+.button-16 {
+  background-color: #03cea4;
+}
+
+.button-16:hover {
+  background: #3da35d;
+}
+
+.button-17 {
+  background-color: #b6a6ca;
+}
+
+.button-17:hover {
+  background: #a09abc;
+}
+
+.swiper-navBtn {
+  color: #fed800;
+  transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover {
+  color: #000000;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 40px;
+  color: #696969;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+.swiper-pagination.bullet {
+  background-color: #696969;
+  opacity: 1;
+}
+
+.swiper-pagination.bullet-active {
+  background-color: #707070;
+}
+
+.card-wrapper-2 {
+  position: relative;
+  top: 190px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(650px, auto);
+  grid-gap: 7rem;
+  text-align: center;
+}
+
+/* ----CARD IMAGE COLOR--- */
+
+.card-image-2,
+.card-image-3,
+.card-image-4,
+.card-image-5,
+.card-image-6,
+.card-image-7,
+.card-image-8,
+.card-image-9,
+.card-image-10,
+.card-image-11,
+.card-image-12,
+.card-image-13,
+.card-image-14,
+.card-image-15,
+.card-image-16,
+.card-image-17 {
+  background-color: #48cae4;
+  border-radius: 25%;
+  box-shadow: 0px 0px 20px rgb(80, 80, 80);
+}
+
+.card-image-3 {
+  background-color: #2ec497;
+}
+
+.card-image-4 {
+  background-color: #7209b7;
+}
+
+.card-image-5 {
+  background-color: #f7b538;
+}
+
+.card-image-6 {
+  background-color: #ef476f;
+}
+
+.card-image-7 {
+  background-color: #f94144;
+}
+
+.card-image-8 {
+  background-color: #ff8fab;
+}
+
+.card-image-9 {
+  background-color: #90e0ef;
+}
+
+.card-image-10 {
+  background-color: #b08968;
+}
+
+.card-image-11 {
+  background-color: #a7c957;
+}
+
+.card-image-12 {
+  background-color: #ffc6ff;
+}
+
+.card-image-13 {
+  background-color: #ffa62b;
+}
+
+.card-image-14 {
+  background-color: #9163cb;
+}
+
+.card-image-15 {
+  background-color: #c6ac8f;
+}
+
+.card-image-16 {
+  background-color: #03cea4;
+}
+
+.card-image-17 {
+  background-color: #b6a6ca;
+}
+
+/* Styles go top button */
+.go-top-container {
+  position: fixed;
+  bottom: 4rem;
+  right: 4rem;
+  width: 6.6rem;
+  height: 6.6rem;
+  z-index: -1;
+}
+
+.go-bottom-container {
+  position: fixed;
+  bottom: 4rem;
+  left: 5.6rem;
+  width: 6.6rem;
+  height: 6.6rem;
+  z-index: -1;
+}
+
+.go-top-button,
+.go-bottom-button {
+  width: 0rem;
+  height: 0rem;
+  background: #fed800;
+  border-radius: 25%;
+  cursor: pointer;
+  transition: 0.2s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.go-top-button i,
+.go-bottom-button i {
+  position: absolute;
+  font-size: 2rem;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  color: #fff;
+  transition: 0.2s;
+}
+
+.show {
+  z-index: 10;
+}
+
+.show .go-top-button,
+.show .go-bottom-button {
+  animation: popup 0.3s ease-in-out;
+  width: 4rem;
+  height: 4rem;
+  z-index: 11;
+}
+
+.show i {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes popup {
+  0% {
+    width: 0rem;
+    height: 0rem;
+  }
+
+  50% {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  100% {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-navBtn {
+    display: none;
+  }
+
+  .slide-content {
+    margin: 0;
+  }
+}
